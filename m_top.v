@@ -1,9 +1,9 @@
-`include "m_circuit1.v"
+`include "m_proc1.v"
 
 module m_top();
     reg r_clk = 0;
     initial #150 forever # 50 r_clk =~ r_clk;
-    m_circuit1 m (r_clk);
-    initial #99 forever #100 $display("%3d %h", $time, m.r_pc);
-    initial #500 $finish;
+    m_proc1 m (r_clk);
+    initial #99 forever #100 $display("%3d %d %d %d %h", $time, m.w_r1, m.w_r2, m.w_rt, m.w_ir);
+    initial #400 $finish;
 endmodule
