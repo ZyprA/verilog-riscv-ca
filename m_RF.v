@@ -1,3 +1,5 @@
+`default_nettype none
+
 module m_RF(w_clk, w_ra1, w_ra2, w_rd1, w_rd2, w_wa, w_we, w_wd);
     input wire w_clk, w_we;
     input wire [4:0] w_ra1, w_ra2, w_wa;

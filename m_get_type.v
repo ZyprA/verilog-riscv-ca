@@ -1,3 +1,5 @@
+`default_nettype none
+
 module m_get_type(opcode5, r, i, s, b, u, j);
     input wire [4:0] opcode5;
     output wire r, i, s, b, u, j;

@@ -1,3 +1,5 @@
+`default_nettype none
+
 module m_get_imm(ir, i, s, b, u, j, imm);
     input wire [31:0] ir;
     input wire i, s, b, u, j;

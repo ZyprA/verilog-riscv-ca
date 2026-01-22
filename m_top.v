@@ -1,3 +1,4 @@
+`default_nettype none
 `include "m_proc4.v"
 
 module m_top();

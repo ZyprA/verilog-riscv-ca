@@ -1,3 +1,4 @@
+`default_nettype none
 `include "m_adder.v"
 
 module m_circuit1(w_clk);

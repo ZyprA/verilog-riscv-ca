@@ -1,3 +1,4 @@
+`default_nettype none
 `include "m_adder.v"
 `include "m_am_imem.v"
 

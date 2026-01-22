@@ -1,3 +1,5 @@
+`default_nettype none
+
 `include "m_get_type.v"
 `include "m_get_imm.v"
 

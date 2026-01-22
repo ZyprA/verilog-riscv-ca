@@ -1,3 +1,5 @@
+`default_nettype none
+
 module m_am_imem(w_pc, w_inst);
     input wire [31:0] w_pc;
     output wire [31:0] w_inst;

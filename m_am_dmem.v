@@ -1,3 +1,5 @@
+`default_nettype none
+
 module m_am_dmem(w_clk, w_adr, w_we, w_wd, w_rd);
     input wire [31:0] w_adr, w_wd;
     input wire w_clk, w_we;
